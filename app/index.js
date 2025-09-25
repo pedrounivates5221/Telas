@@ -9,9 +9,13 @@ export default function Home() {
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center", gap: 12 }}>
       <Text>Finanças</Text>
   
-      <Link href="/sqlite" asChild>
-        <Button title="Ir para a 3ª tela" />
+      <Link href="/tela1" asChild>
+        <Button title="Ir para a 1ª tela" />
       </Link>
+      <Link href="/tela2" asChild>
+        <Button title="Ir para a 2ª tela" />
+      </Link>
+
 
     </View>
   );
